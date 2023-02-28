@@ -20,7 +20,5 @@ from mysite import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('yukino/',views.yukino),
-    path('psychopass/',views.psychopass),
     path('',views.index)
 ]

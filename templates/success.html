@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎃🎃🎃🎃</title>
+</head>
+<script type="text/javascript" src="../static/vue/vue.js"></script>
+<style>
+    #exitTime {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        font-family: "Microsoft Himalaya";
+        font-size: 120px;
+        text-align: center;
+        margin: 50px auto;
+    }
+
+    span {
+        line-height: 200px;
+    }
+
+    .box01 {
+        width: 800px;
+        height: 100px;
+        margin: 100px auto;
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
+<body>
+<div id="root">
+
+    <h1>🎃🎃🎃🎃🎃信息已成功提交!!没有操作的话五秒后跳转首页喔haha😯😯😄😄😄</h1>
+    <div id="exitTime">
+        <span>{{ exitTime }}</span>
+    </div>
+</div>
+<div class="box01">
+    <img src="../static/img/狡噛慎也.png" alt="图片找不到了喔!😯😯">
+</div>
+
+</body>
+<script type="text/javascript">
+    new Vue({
+        el: '#root',
+        data: {
+            'exitTime': 5
+        },
+        created() {
+            setInterval(() => {
+                this.exitTime -= 1
+                if (this.exitTime === 0) {
+                    window.location.replace('http://localhost:8001/')
+                }
+            }, 1000)
+
+
+        }
+    })
+</script>
+</html>
