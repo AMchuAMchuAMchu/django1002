@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🎃🎃🎃🎃</title>
+</head>
+<style>
+    span {
+        line-height: 200px;
+    }
+
+    .box01 {
+        width: 800px;
+        height: 100px;
+        margin: 100px auto;
+    }
+
+    img {
+        width: 100%;
+    }
+    table{
+        border: solid aqua 3px;
+        border-spacing: 0;
+    }
+    th,td{
+        border: solid aqua 3px;
+    }
+</style>
+<body>
+<div>
+    <h1>🎃🎃🎃🎃🎃信息已成功提交!!没有操作的话五秒后跳转首页喔haha😯😯😄😄😄</h1>
+</div>
+<div class="box01">
+    <img src="../static/img/狡噛慎也.png" alt="图片找不到了喔!😯😯">
+    <table>
+        <tr>
+            <th>用户名</th>
+            <th>密 码</th>
+        </tr>
+        {% for item in data %}
+            <tr>
+                <td>{{ item.username }}</td>
+                <td>{{ item.password }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>
+<script type="text/javascript">
+    window.onload = function () {
+        setTimeout(() => {
+            window.location.href = 'http://localhost:8001/'
+        }, 50000)
+    }
+</script>
+</body>
+</html>

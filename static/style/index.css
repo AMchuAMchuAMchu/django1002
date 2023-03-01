@@ -149,21 +149,21 @@ ul {
 .circle_box {
     border: blueviolet solid 30px;
     border-radius: 10px;
-    margin: 350px auto;
+    margin: -20px auto;
     width: 700px;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
 }
 /*轮播图作为容器的盒子*/
 .circle_box01 {
     width: 9800px;
-    height: 800px;
+    height: 500px;
     animation: box01 25s infinite linear;
 }
 /*轮播图图片的盒子*/
 .circlePic {
     width: 700px;
-    height: 800px;
+    height: 500px;
     float: left;
 }
 /*图片在盒子的宽度*/
