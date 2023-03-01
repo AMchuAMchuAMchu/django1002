@@ -1,0 +1,217 @@
+/**
+文档主体
+ */
+body {
+    background-image: url('../../static/img/bg_index.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/**
+装载登录,欢迎语,横展图的盒子
+ */
+.box01 {
+    border-radius: 10px;
+    opacity: 0.8;
+    width: 900px;
+    height: 630px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #5230e8, #24e568);
+    overflow: hidden;
+}
+
+/**
+    背景图片:psychopass.jpg样式设置
+ */
+.bg {
+    width: 100%;
+    margin: 10px auto;
+    transition: all 1.8s;
+}
+
+/**
+    图片:psychopass.jpg鼠标悬停效果设置
+ */
+.bg:hover {
+    transform: scale(1.6);
+}
+
+/**
+    解决图片psychopass.jpg元素布局设置的盒子
+ */
+.bbg {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+/**
+厚生省公安局.png样式设置
+ */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: all 1.5s;
+}
+
+/**
+厚生省公安局.png图片的鼠标悬停效果设置
+ */
+.logo:hover {
+    transform: scale(1.4);
+}
+
+/**
+欢迎语标题内容居中
+ */
+h3 {
+    text-align: center;
+}
+
+/**
+login:登录的悬浮效果设置
+ */
+.login:hover {
+    transition: all 0.9s;
+    transform: scale(1.2);
+    background-color: #a426d2;
+}
+
+/**
+register:注册的悬浮效果设置
+ */
+
+.register:hover {
+    transition: all 0.9s;
+    transform: scale(1.2);
+    background-color: #9328c9;
+}
+
+/**
+右侧外部链接的盒子样式设置
+ */
+.box02 {
+    border-radius: 10px;
+    position: fixed;
+    opacity: 0.8;
+    width: 100px;
+    height: 220px;
+    background-color: #d827ec;
+    right: 60px;
+    top: 130px;
+}
+
+/**
+ul的li设置去掉小圆点
+ */
+ul {
+    list-style: none;
+}
+
+/**
+鼠标悬停外部链接的效果
+ */
+li:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+    background-color: red;
+}
+
+/**
+外部链接的样式设置
+ */
+ul {
+    position: absolute;
+    right: 20px;
+}
+
+/**
+右侧狡噛慎也的小图
+ */
+#right_img {
+    width: 100%;
+}
+
+/**
+右侧狡噛慎也的小图的样式设置
+ */
+.box03 {
+    position: fixed;
+    width: 150px;
+    height: 100px;
+    right: 30px;
+    top: 30px;
+}
+
+/*轮播图展示的盒子*/
+.circle_box {
+    border: blueviolet solid 30px;
+    border-radius: 10px;
+    margin: 350px auto;
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+}
+/*轮播图作为容器的盒子*/
+.circle_box01 {
+    width: 9800px;
+    height: 800px;
+    animation: box01 25s infinite linear;
+}
+/*轮播图图片的盒子*/
+.circlePic {
+    width: 700px;
+    height: 800px;
+    float: left;
+}
+/*图片在盒子的宽度*/
+img {
+    width: 100%;
+}
+/*轮播图关键帧*/
+@keyframes box01 {
+    0%, 5% {
+        margin-left: 0px;
+    }
+    7%, 12% {
+        margin-left: -700px;
+    }
+    14%, 19% {
+        margin-left: -1400px;
+    }
+    21%, 26% {
+        margin-left: -2100px;
+    }
+    28%, 33% {
+        margin-left: -2800px;
+    }
+    35%, 40% {
+        margin-left: -3500px;
+    }
+    42%, 47% {
+        margin-left: -4200px;
+    }
+    49%, 54% {
+        margin-left: -4900px;
+    }
+    56%, 61% {
+        margin-left: -5600px;
+    }
+    63%, 68% {
+        margin-left: -6300px;
+    }
+    70%, 75% {
+        margin-left: -7000px;
+    }
+    77%, 82% {
+        margin-left: -7700px;
+    }
+    84%, 89% {
+        margin-left: -8400px;
+    }
+    91%, 96% {
+        margin-left: -9100px;
+    }
+}

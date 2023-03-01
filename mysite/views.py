@@ -8,3 +8,8 @@ from django.shortcuts import render
 def index(request):
     print(datetime.datetime,'::有人访问了index...')
     return render(request,'index.html')
+
+def login(request):
+    print(datetime.datetime,'::有人访问了login...')
+    return render(request,'success.html')
+

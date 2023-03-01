@@ -2,111 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>😅😅😅😅</title>
+    <title>欢迎来到厚生省公安局刑事科!!🤠🤠</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/index.css">
 </head>
-<style>
-
-    .box01 {
-        width: 900px;
-        height: 630px;
-        margin: 20px auto;
-        background: linear-gradient(to right, #5230e8, #24e568);
-        overflow: hidden;
-    }
-
-    .bg {
-        display: block;
-        width: 70%;
-        margin: 10px auto;
-        transition: all 1.8s;
-    }
-
-    .bg:hover {
-        transform: scale(1.5);
-    }
-
-    .logo {
-        width: 50px;
-        height: 50px;
-        display: inline-block;
-        margin-top: 10px;
-        margin-left: 10px;
-        transition: all 1.5s;
-    }
-
-    .logo:hover {
-        transform: scale(1.4);
-    }
-
-    h3 {
-        text-align: center;
-    }
-
-    .login:hover {
-        transition: all 0.9s;
-        transform: scale(1.2);
-        background-color: #a426d2;
-    }
-
-    .register:hover {
-        transition: all 0.9s;
-        transform: scale(1.2);
-        background-color: #9328c9;
-    }
-
-    .box02 {
-        position: fixed;
-        width: 100px;
-        height: 200px;
-        background-color: #6859f1;
-        right: 30px;
-        top: 20px;
-    }
-
-    li {
-        list-style: none;
-    }
-    ul{
-        position: absolute;
-        right: 20px;
-    }
-</style>
 <body>
-<div class="box01">
-    <a href="https://zh.moegirl.org.cn/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85">
-        <img class="logo" src="../static/img/厚生省公安局.png" alt="图片找不到!!大哭!!" title="厚生省公安局">
-    </a>
-    <a href="https://zh.moegirl.org.cn/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85">
-        <img class="bg" src="../static/img/psychopass.jpg" alt="图片找不到!!" title="心理测量者-Psycho-pass">
-    </a>
-    <h3>欢迎来到厚生省公安局刑侦科首页!!😅😂😄😯🎃🍏🤠</h3>
-    <h3>欢迎来到厚生省公安局刑侦科首页!!😅😂😄😯🎃🍏🤠</h3>
-    <h3 class="login">
-        <a href="" title="🎃点我跳转登录页面">登录</a>
-    </h3>
-    <h3 class="register">
-        <a href="" title="🤠点我跳转注册页面">注册</a>
-    </h3>
-</div>
-<div class="box02">
-    超链接还没设置的说!!!
-    <ul>
-        <li>
-            twitter
-        </li>
-        <br>
-        <li>
-            youtube
-        </li>
-        <br>
-        <li>
-            bilibili
-        </li>
-        <br>
-        <li>
-            weibo
-        </li>
-    </ul>
+{#登录,注册,横展示图的盒子#}
+    <div class="box01">
+        <h3>厚生省刑侦科为您播报实时时间🧐🧐:{{ myYear }}年{{ myMonth }}月{{ myDay }}日{{ myHour }}时{{ myMinute }}分{{ mySecond }}秒</h3>
+        <div class="blogo">
+
+            <a href="https://zh.moegirl.org.cn/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85">
+                <img class="logo" src="../static/img/厚生省公安局.png" alt="图片找不到!!大哭!!" title="厚生省公安局">
+            </a>
+        </div>
+        <div class="bbg">
+
+            <a href="https://zh.moegirl.org.cn/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85">
+                <img class="bg" src="../static/img/psychopass.jpg" alt="图片找不到!!" title="心理测量者-Psycho-pass">
+            </a>
+        </div>
+
+        <h3>欢迎来到厚生省公安局刑侦科首页!!😅😂😄😯🎃🍏🤠</h3>
+        <h3>欢迎来到厚生省公安局刑侦科首页!!😅😂😄😯🎃🍏🤠</h3>
+        <h3 class="login">
+            <a href="" title="🎃点我跳转登录页面">登录</a>
+        </h3>
+        <h3 class="register">
+            <a href="" title="🤠点我跳转注册页面">注册</a>
+        </h3>
+    </div>
+{#外部链接#}
+    <div class="box02">
+
+        <ul>
+           <li>
+                <a href="https://twitter.com/psychopass_tv" title="推特">
+                    twitter
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="https://zh.moegirl.org.cn/%E5%BF%83%E7%90%86%E6%B5%8B%E9%87%8F%E8%80%85" title="萌娘百科">
+                    萌娘百科
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="https://psycho-pass.com/" title="官网">
+                    official
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="https://zh.wikipedia.org/wiki/PSYCHO-PASS" title="维基百科">
+                    wikipedia
+                </a>
+            </li>
+            <br>
+            <li>
+                <a href="http://pixiv.net/tags/PSYCHO-PASS%20サイコパス/artworks?s_mode=s_tag" title="pixiv同人插图">
+                    pixiv
+                </a>
+            </li>
+        </ul>
+    </div>
+{#右侧小贴图#}
+    <div class="box03">
+        <img id="right_img" src="../static/img/右侧小图标.jpg" alt="图片找不到喔!!" title="外部链接🎃🎃">
+    </div>
+{#轮播图#}
+   <div class="circle_box">
+    <div class="circle_box01">
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1001.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1002.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1003.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1004.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1005.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1006.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1007.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1008.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1009.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1010.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1011.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1012.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1013.jpg" alt="图片找不到了!!😭😭">
+        </div>
+        <div class="circlePic">
+            <img src="../static/img/circlePic/1014.jpg" alt="图片找不到了!!😭😭">
+        </div>
+    </div>
 </div>
 </body>
 </html>

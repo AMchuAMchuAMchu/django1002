@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>🎃🎃🎃🎃</title>
 </head>
-<script type="text/javascript" src="../static/vue/vue.js"></script>
 <style>
     #exitTime {
         width: 200px;
@@ -43,22 +42,4 @@
 </div>
 
 </body>
-<script type="text/javascript">
-    new Vue({
-        el: '#root',
-        data: {
-            'exitTime': 5
-        },
-        created() {
-            setInterval(() => {
-                this.exitTime -= 1
-                if (this.exitTime === 0) {
-                    window.location.replace('http://localhost:8001/')
-                }
-            }, 1000)
-
-
-        }
-    })
-</script>
 </html>
